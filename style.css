@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.weather-container {
+  margin-top: 20px;
+  display: none;
+}
+
+#city-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#weather-icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+#temperature {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#description {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
